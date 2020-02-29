@@ -1,0 +1,16 @@
+﻿
+@model MvcCoreCastleWindsor.Models.ProductViewModel
+
+@foreach (var item in Model.ProductList1)
+{
+    <span>@item.Name : @item.Price</span>
+    <br />
+}
+
+<hr />
+
+@foreach (var item in Model.ProductList2)
+{
+    <span>@item.Name : @item.Price</span>
+    <br />
+}
